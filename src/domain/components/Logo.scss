@@ -4,4 +4,10 @@
     display: inline-block;
     width: 250px;
   }
+
+  @media only screen and (max-width: 571px) {
+    img {
+      width: 200px;
+    }
+  }
 }
