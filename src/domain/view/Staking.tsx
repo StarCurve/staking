@@ -42,7 +42,7 @@ export default class Staking extends React.Component<Props, State> {
           <div className={this.bem.getElement("content-container")}>
             <StakingCard
               title={"Balancer"}
-              text={"Deposit XTAR-USDC-ETH BPT and earn XSTAR"}
+              text={"Deposit XSTAR-USDC-ETH BPT and earn XSTAR"}
               buttonText={"Coming soon"}
               iconName={"balancer"}
               disabled={true}

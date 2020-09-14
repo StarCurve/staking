@@ -95,4 +95,32 @@ a {
       justify-content: center;
     }
   }
+
+  @media only screen and (max-width: 675px) {
+    &__title-container {
+      h1 {
+        font-size: 40px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 571px) {
+    padding: 20px 20px;
+
+    &__top-container {
+      flex-wrap: wrap;
+    }
+
+    &__title-container {
+      h1 {
+        font-size: 35px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
 }
