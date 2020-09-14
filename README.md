@@ -1,0 +1,2 @@
+# staking
+Starcurve staking portal
